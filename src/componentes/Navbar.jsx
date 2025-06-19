@@ -59,6 +59,9 @@ const Navbar = () => {
                     <NavLink onClick={() => setShowMenu(false)} to='/doctors'><p className='px-4 py-2 rounded inline-block'>ALL DOCTORS</p></NavLink>
                     <NavLink onClick={() => setShowMenu(false)} to='/about'><p className='px-4 py-2 rounded inline-block'>ABOUT</p></NavLink>
                     <NavLink onClick={() => setShowMenu(false)} to='/contact'><p className='px-4 py-2 rounded inline-block'>CONTACT</p></NavLink>
+                    <NavLink onClick={() => setShowMenu(false)} to='/my-profile'><p className='px-4 py-2 rounded inline-block'>My Profile</p></NavLink>
+                    <NavLink onClick={() => setShowMenu(false)} to='/my-appointments'><p className='px-4 py-2 rounded inline-block'>My Appointments</p></NavLink>
+                    <NavLink onClick={() => setShowMenu(false)} to='/login'><p className='px-4 py-2 rounded inline-block'>Logout</p></NavLink>
                 </ul>
             </div>
             
